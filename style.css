@@ -12,6 +12,20 @@
     color: rgb(0, 191, 255);
 }
 
+.add{
+    width:10px;
+    border:2px;
+    border-radius:200px;
+    padding:30px;
+    margin:10px;
+    color:white;
+    border-color:blue;
+    background-color:blue;
+}
+
+.text{
+    font-weight:bold;
+}
 .small{
     display:grid;
 }
@@ -20,3 +34,32 @@
     font-size:30px;
     font-weight:bold;
 }
+
+.inner-box {
+    width: 1500px;
+  border: 2px solid rgb(0, 96, 128);
+  padding: 50px;
+  margin: 20px;
+    border-color:blue;
+    border-radius:10px;
+    float:left;
+
+}
+.item3 , .item4 , .item5, .item6 ,.item7{
+    width: 100px;
+    border: 2px solid rgb(0, 96, 128);
+    padding: 50px;
+    margin: 20px;
+      display:grid;
+      border-color:blue;
+      border-radius:10px;
+       float:left;
+       flex-flow: column;
+}
+
+.B{
+    text-decoration: line-through;
+    color:grey;
+
+}
+
